@@ -1,5 +1,5 @@
 class Calculator:
-    """ A simple calculator class to perform basic arithmetic operations. """
+""" A simple calculator class to perform basic arithmetic operations. """
 
     @staticmethod
     def add(a, b):
