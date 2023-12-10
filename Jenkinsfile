@@ -23,7 +23,7 @@ pipeline {
                     publishers: [
                         sshPublisherDesc(
                             configName: 'assignment4',
-                            transfers: [sshTransfer(sourceFiles: '*/', remoteDirectory: '/home/ubuntu/myapp')]
+                            transfers: [sshTransfer(sourceFiles: '**/*', remoteDirectory: '/home/ubuntu/myapp')]
                             
                         )
                     ]
