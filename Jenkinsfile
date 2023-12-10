@@ -22,9 +22,9 @@ pipeline {
                 sshPublisher(
                     publishers: [
                         sshPublisherDesc(
-                            configName: 'MyUbuntuServer',
-                            transfers: [sshTransfer(sourceFiles: '*/', remoteDirectory: '/home/ubuntu/myapp')],
-                            execCommand: 'python /home/ubuntu/python/test.py'
+                            configName: 'assignment4',
+                            transfers: [sshTransfer(sourceFiles: '*/', remoteDirectory: '/home/ubuntu/myapp')]
+                            
                         )
                     ]
                 )
